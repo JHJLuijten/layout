@@ -1,0 +1,67 @@
+body{
+	background-image: url("background.jpg");
+}
+div.all {
+	margin:10px 20px;
+	background-color: white;
+	border: solid grey 5px;
+	display: flex;
+  	flex-direction:row;
+  	flex-wrap:wrap;
+}
+h1{
+	margin:10px 10px;
+	color: white;
+	text-decoration: none;
+
+}
+h2{
+	margin:10px;
+}
+p{
+	margin:10px;
+}
+img{
+	margin:10px 10px 0 10px ;
+	width: 350px;
+	height:200px;
+}
+article{
+	background-color: grey;
+	height:380px;
+	margin: 10px;
+	width: 48%;
+
+
+}
+.advertentie{
+	width:90%;
+	
+	height: 75px;
+	margin:5px 50px;
+	background-image: url("reclame.png");
+}
+.kritiek{
+	order:3;
+}
+.CDA{
+	order:2;
+}
+.halfbroer{
+	order:4;
+}
+.horrorclown{
+	order:1;
+}
+.no_underline{
+	text-decoration: none;
+}
+.h1{
+	color:black;
+	height: 75px;
+	margin:0px;
+	padding:10px;
+}
+article{
+	border: 1px solid black;
+}
