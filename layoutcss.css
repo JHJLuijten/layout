@@ -30,16 +30,30 @@ article{
 	background-color: grey;
 	height:380px;
 	margin: 10px;
-	width: 48%;
+	width: 40%;
 
 
 }
+.advertentie2{
+	width:10%;
+	background-image: url("reclame.png");
+	height: 500px;
+	float: right;
+	margin-top: -398px;
+	margin-right: 5px;
+}
 .advertentie{
-	width:90%;
-	
+	width:80%;
 	height: 75px;
 	margin:5px 50px;
 	background-image: url("reclame.png");
+}
+.kritiek2{
+
+	background-color: grey;
+	height:auto;
+	margin: 10px;
+	width: 90%;
 }
 .kritiek{
 	order:3;
@@ -62,6 +76,41 @@ article{
 	margin:0px;
 	padding:10px;
 }
+#test{
+	margin-top:0px;
+}
 article{
 	border: 1px solid black;
+	float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 50px;
+    width: 1300px;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.de_melding{
+	margin:10px 10px;
+	color: white;
+	text-align:center;
+	
 }
